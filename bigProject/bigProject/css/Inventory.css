@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.name {
+    font-family: 'Courgette', cursive;
+}
+
+h1 {
+    color: dimgray;
+    font-family: 'Dosis', sans-serif;
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+h1.customize {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 75px;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 15px;
+}
+
+h2.h2inventory {
+    margin-bottom: 30px;
+}
+
+table {
+    font-family: 'Cairo', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+/*div.col-md-12 {
+    text-align: center;
+}*/
+
+a.edit {
+    margin-right: 15px;
+    font-size: 20px;
+    /*color: #dc143c;*/
+}
+
+/*----------------Sign in & Sign up----------------*/
+
+/*body.beforeLogin {
+    background-image: url('https://i.ytimg.com/vi/qW6nIhcNDbs/maxresdefault.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+
+.mainContainer {
+    margin-top: 50px;
+}
+
+
+
+/*------------------DASHBORD Total price------------------*/
+.logosize {
+    margin-top: 15%;
+}
+
+.price-table {
+    margin-top: 100px;
+}
+
+.pricing {
+    background: gray;
+    padding: 20px;
+    border-radius: 10px;
+    color:#fff;
+    margin-bottom:30px;
+}
+.pricing-top {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin: 0 auto;  
+}
+.pricing-top p{
+    margin-top: 20px;
+}
+.pricing-top sup{
+    font-size: 20px;
+    top: -3px;
+    left: -5px;
+}
+.pricing-top em{
+    font-size: 25px;
+}
+.pricing-top span{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.btn2 {
+    background: #fff;
+    color: #39393a;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    transform: .5s;
+}
+.pricing:hover {
+    background: lightgreen;
+    color: #000;
+    transition-duration:.5s;
+}
+.pricing:hover .pricing-top{
+    background: #fff;
+    color: #000;
+    transition-duration: .5s;
+}
+.pricing:hover .btn2{
+    background: #000;
+    color: #fff;
+    transition-duration: .5s;
+}
+/*------------------RECENT ORDERS------------------*/
+h2.h2recent {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    margin-top: 65px;
+    padding-left: 150px;
+    text-align: left;
+    font-style: bold;
+    text-transform: uppercase;
+
+}
+.tablerecent {
+    width: 65%;
+    margin-top: 30px;
+}
+
+/*------------------Invoice Table-----------------*/
+tr.row-name
+{
+    font-size: 18px;
+    color:crimson;
+}
+
+tr.row-name2
+{
+    font-size: 18px;
+    color:darkturquoise ;
+}
+
+tr.row-content
+{
+    color:#6c7173;
+}
+
+.tableinvoice
+{
+    border-bottom: 8px solid gray;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)
+{
+    background:#F0F2F2 !important; 
+}
+
+/*------------------Vendor Information--------------------*/
+
+h3.vendorinfo {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+
+/*-------------------Receive Report---------------------*/
+.right-inner-addon {
+    position: relative;
+}
+
+.right-inner-addon input{
+    padding-right: 30px;
+}
+
+.right-inner-addon i{
+    
+    position:absolute;
+    /*text-indent: -15px;
+    bottom: -8px;
+    font-size: 1.3em;*/
+    right: 0px;
+    padding: 10px 12px;
+}
+
+th.a{
+    background-color: palegreen ;
+}
+
+th.b{
+    background-color: gainsboro  ;
+    
+}
+.contact{
+    display: none;
+}

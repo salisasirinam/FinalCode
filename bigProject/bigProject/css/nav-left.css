@@ -1,0 +1,157 @@
+/*--------------------Narbar Left--------------------*/
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+B2 {
+
+    font-family: "Khand", sans-serif;
+
+    font-size: 16px;
+    font-weight: 200;
+    word-spacing: .001ex;
+    letter-spacing: .001ex;
+    text-decoration: none;
+}
+
+#ca_page-wrapper {
+
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    /*background-color:gray;*/
+}
+
+#ca_section0 {
+
+    position: relative;
+    display: block;
+
+    text-align: center;
+
+    width: 100%;
+    height: 500px;
+
+    /*background-color:pink;   */
+}
+
+#ca_section1 {
+
+    position: relative;
+    display: block;
+
+    text-align: center;
+
+    width: 100%;
+    height: 370px;
+
+    /*background-color:red;   */
+}
+
+#ca_section2 {
+
+    position: relative;
+    display: block;
+
+    text-align: center;
+
+    width: 100%;
+    height: 790px;
+
+    /*background-color:green; */
+}
+
+.nav2 {
+    display: block;
+    background: transparent;
+    z-index: 100;
+    width: 50px !important;
+    margin: 0px;
+}
+
+.nav2 a {
+    color: white;
+}
+
+.nav2 li a:active,
+.nav2 li a:hover,
+.nav2 li a:focus {
+    background-color: transparent !important;
+}
+
+#ca_sidenav {
+
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    display: block;
+    width: 100px;
+    height: 120vh !important;
+    top: 0px;
+    left: 0px;
+    padding-top: 40px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+	
+    margin-top: 50px;
+}
+
+#ca_sidenav.CA_slideNavLeft {
+
+    left: -49px;
+
+    transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -webkit-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+}
+
+#ca_sidenav.CA_slideNavRight {
+
+    left: 0px;
+
+    transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -webkit-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+}
+
+#ca_navToggle {
+
+    opacity: 1;
+    position: fixed;
+    left: 5px;
+    top: 4px;
+    z-index: 200;
+    width: 40px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+#ca_sidenav li {
+    width: auto;
+    margin-bottom: 1vh;
+}
+
+#ca_sidenav li a {
+
+    color: white;
+    width: 100px;
+}
+
+li .nav_txt{
+    margin-left: -34px;
+    text-align: center;
+}
+a .txt:hover{
+    color: blue;
+}
